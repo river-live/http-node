@@ -1,5 +1,5 @@
 {
-  "name": "river-http-node",
+  "name": "river-http-node4",
   "version": "0.0.1",
   "description": "A NodeJS server-side library to interact with the API Gateway",
   "main": "test.js",
@@ -23,10 +23,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/river-live/http-node.git"
+    "url": "git+https://github.com/river-live/http-node/tree/minimal-version-npm-package"
   },
   "bugs": {
     "url": "https://github.com/river-live/http-node/issues"
   },
-  "homepage": "https://github.com/river-live/http-node#readme"
+  "homepage": "https://github.com/river-live/http-node/tree/minimal-version-npm-package"
 }
