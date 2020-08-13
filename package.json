@@ -2,25 +2,31 @@
   "name": "river-http-node",
   "version": "0.0.1",
   "description": "A NodeJS server-side library to interact with the API Gateway",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "contributors": [
-    {
-      "name": "Catherine Emond"
-    },
-    {
-      "name": "Mark Hyams"
-    },
-    {
-      "name": "William Jackson"
-    }
+    "Catherine Emond",
+    "Mark Hyams",
+    "William Jackson"
   ],
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/river-live/http-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/river-live/http-node/issues"
+  },
+  "homepage": "https://github.com/river-live/http-node#readme"
 }

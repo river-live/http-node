@@ -1,7 +1,6 @@
 const River = require('./lib/river');
 
-const host =
-  'https://y7bt1s686j.execute-api.us-east-1.amazonaws.com/apps';
+const host = 'https://djp47y1957.execute-api.us-east-2.amazonaws.com';
 
 const river = new River({ host });
 
