@@ -1,7 +1,11 @@
 const River = require("./lib/river");
+const host = "https://xrrjfc1x9j.execute-api.us-east-1.amazonaws.com/publish"; // hardcoded for testing purposes with one specific deploy
+const key = "xrrjfc1x9j"; // hardcoded for testing purposes with one specific deploy
+const river = new River({ host, key });
 
-const host = "https://y7bt1s686j.execute-api.us-east-1.amazonaws.com/apps";
+const payload = {
+  channel: "one",
+  message: "Hello from the authenticated backend!",
+};
 
-const river = new River({ host });
-
-river.publish("one", "event", { "Data String": "data string" });
+river.publish("one", "event", payload);
