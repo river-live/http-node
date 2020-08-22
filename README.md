@@ -38,10 +38,10 @@ The endpoint and key are given at the end of the deployment process. Please see 
 To publish a message from your backend, use the `publish` method:
 
 ```javascript
-river.publish("channel", "eventName", payload);
+river.publish("channel", "eventName", data);
 ```
 
-This sends an HTTP POST request to River. `payload` can be a string, array, or object. See the [`client-js` repo](https://github.com/river-live/client-js) for how clients receive this event payload.
+This sends an HTTP POST request to River. `data` can be a string, array, or object. See the [`client-js` repo](https://github.com/river-live/client-js) for how clients receive this event data.
 
 For more examples, see the [`examples` repo](https://github.com/river-live/examples).
 
